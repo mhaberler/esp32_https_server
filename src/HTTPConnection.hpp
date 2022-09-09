@@ -6,11 +6,7 @@
 
 #include <string>
 #include <mbedtls/base64.h>
-#if CONFIG_IDF_TARGET_ESP32S3
 #include "sha/sha_parallel_engine.h"
-#else
-#include <hwcrypto/sha.h>
-#endif
 #include <functional>
 
 // Required for sockets
