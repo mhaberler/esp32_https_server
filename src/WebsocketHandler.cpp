@@ -1,5 +1,8 @@
 #include "WebsocketHandler.hpp"
 
+#ifndef TAG
+#define TAG "WebsocketHandler"
+#endif
 namespace httpsserver {
 
 /**
